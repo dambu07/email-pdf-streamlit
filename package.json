@@ -1,0 +1,26 @@
+{
+  "name": "fileboro-pdf",
+  "version": "1.0.0",
+  "description": "FileBoro - A app for organizing and managing PDFs from email using Firebase and various AI models.OCR, NLP, and Firebase",
+  "main": "app.py",
+  "scripts": {
+    "start": "streamlit run app.py"
+  },
+  "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.2",
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3",
+    "@tensorflow/tfjs": "^3.21.0",
+    "firebase": "^9.23.0",
+    "tesseract.js": "^2.1.5"
+  },
+  "keywords": [
+    "streamlit",
+    "firebase",
+    "tensorflow",
+    "pdf",
+    "ocr",
+    "openai"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
